@@ -1,10 +1,10 @@
 {
-    "name": "tritum/form-element-linked-checkbox",
+    "name": "eliashaeussler/form-element-linked-checkbox",
     "description": "",
     "type": "typo3-cms-extension",
     "require": {
-        "typo3/cms-core": "^8.7",
-        "typo3/cms-form": "^8.7"
+        "typo3/cms-core": "^8.7 || ^9.5",
+        "typo3/cms-form": "^8.7 || ^9.5"
     },
     "replace": {
         "form_element_linked_checkbox": "self.version",
@@ -15,6 +15,11 @@
         {
             "name": "Björn Jacob TRITUM GmbH",
             "email": "bjoern.jacob@tritum.de"
+        },
+        {
+            "name": "Elias Häußler",
+            "role": "Developer",
+            "email": "e.haeussler@familie-redlich.de"
         }
     ]
 }
